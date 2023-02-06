@@ -1,0 +1,56 @@
+// import React, {useState} from 'react'
+// import DropdownList from './Dropdownlist';
+// import {AppBar, Tab, Tabs, Toolbar, Typography, useMediaQuery, useTheme} from '@mui/material'
+// import DrawerComp from './DrawerComp';
+// const PAGES = ["Home", "Profile", "Program Studi", "Artikel", "Ekstrakulikuler"];
+// const Header = () => {
+//   const [Value, setValue] = useState();
+//   const theme = useTheme();
+//   console.log(theme);
+//   const isMatch = useMediaQuery(theme.breakpoints.down('md'));
+//   console.log(isMatch);
+//   return (
+//    <React.Fragment>
+//     <AppBar >
+//         <Toolbar>
+//          <img src='skolah.png' alt='/' height={70} width={60}/>   
+//               <Typography>Smk Budaya Bangsa</Typography>
+               
+//                {
+//                isMatch ? (
+//                   <>
+//                   <Typography>
+                  
+//                   </Typography>
+//                   <DrawerComp/>
+//                   <DropdownList/>
+//                   </>
+//                ):
+               
+              
+//               <Tabs 
+//                 sx={{color:'white', marginLeft: '150px'}}
+              
+//                Value={Value} 
+//                onChange={(e,Value) => setValue(Value)} indicatorColor="Red">
+
+//                     {
+//                       PAGES.map((page, index)=>(
+//                         <Tab key={index} label={page}/>
+//                       ))
+//                     }
+//                 {/* <Tab label="Home"/>
+//                 <Tab label="Profile"/>
+//                 <Tab label="Program study"/>
+//                 <Tab label="Artikel"/>
+//                 <Tab label="Ekstrakulikuler"/> */}
+               
+//                 </Tabs>
+// }
+//         </Toolbar>
+//     </AppBar>
+//    </React.Fragment>
+//   )
+// }
+
+// export default Header
